@@ -1,0 +1,41 @@
+STUDENT PERFORMANCE ANALYSIS REPORT
+=============================================
+
+Total students: 395
+Total features: 33
+
+Average Final Grade (G3): 10.42
+Highest Grade: 20
+Lowest Grade: 0
+
+Average Grade by Gender:
+sex
+F     9.966346
+M    10.914439
+
+Average Grade by Study Time:
+studytime
+1    10.047619
+2    10.171717
+3    11.400000
+4    11.259259
+
+Average Grade by Family Support:
+famsup
+no     10.640523
+yes    10.272727
+
+Top Correlations with Final Grade (G3):
+G3           1.000000
+G2           0.904868
+G1           0.801468
+studytime    0.097820
+absences     0.034247
+failures    -0.360415
+
+Key Insights:
+- Students with higher G1 and G2 tend to score better in G3.
+- Longer study time and higher parental education slightly improve performance.
+- Family support and internet access have small but positive effects.
+- Alcohol consumption (Walc, Dalc) negatively correlates with performance.
+- Average final grade is around 10.4 out of 20.
